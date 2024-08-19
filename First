@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتب أبو الغلابة لتأجير وبيع السيارات</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 1em 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 1.2em;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .section h2 {
+            color: #004d99;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مكتب أبو الغلابة لتأجير وبيع السيارات</h1>
+        <nav>
+            <a href="#home">الرئيسية</a>
+            <a href="#rentals">تأجير السيارات</a>
+            <a href="#sales">بيع السيارات</a>
+            <a href="#contact">اتصل بنا</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <section id="home" class="section">
+            <h2>مرحباً بكم في مكتب أبو الغلابة</h2>
+            <p>نحن نقدم أفضل خدمات تأجير وبيع السيارات بأسعار منافسة وجودة عالية. سواء كنت تبحث عن سيارة للإيجار أو ترغب في شراء سيارة جديدة، لدينا كل ما تحتاجه.</p>
+        </section>
+        
+        <section id="rentals" class="section">
+            <h2>تأجير السيارات</h2>
+            <p>استعرض مجموعة سياراتنا المتنوعة للإيجار. لدينا خيارات متعددة تناسب جميع احتياجاتك، من السيارات الصغيرة إلى الكبيرة.</p>
+            <!-- يمكنك إضافة قائمة بالسيارات المتاحة هنا -->
+        </section>
+        
+        <section id="sales" class="section">
+            <h2>بيع السيارات</h2>
+            <p>تصفح مجموعة السيارات التي نقدمها للبيع. نقدم سيارات جديدة ومستعملة بأفضل الأسعار.</p>
+            <!-- يمكنك إضافة قائمة بالسيارات المتاحة للبيع هنا -->
+        </section>
+        
+        <section id="contact" class="section">
+            <h2>اتصل بنا</h2>
+            <p>للاستفسارات أو لحجز سيارة، يمكنك الاتصال بنا على الرقم التالي: <strong>123-456-7890</strong> أو إرسال بريد إلكتروني إلى <strong>info@abouelghalaba.com</strong>.</p>
+        </section>
+    </div>
+    
+    <footer class="footer">
+        <p>&copy; 2024 مكتب أبو الغلابة. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
